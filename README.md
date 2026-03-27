@@ -61,7 +61,7 @@ Soham Dongare
 Aspiring Backend Developer (Python)
 <p>
   Connect with me:
-  <a href="www.linkedin.com/in/soham-dongare" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/soham-dongare/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" />
   </a>
 </p>
