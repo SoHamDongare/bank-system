@@ -48,19 +48,46 @@ class Bank:
             raise ValueError("Account not found !")
         return self.accounts[account_number]
 
-### Testing
+### Testing    
 if __name__ == "__main__":
-
-#   CREATE A BANK 
-    bank = Bank("My Bank")
+    # Create a bank
+    bank = Bank("SBI Bank")
     
-#   CREATE ACCOUNTS
-    bank.create_account("ACC001","Soham")
+    # Create multiple accounts
+    bank.create_account("ACC001", "Soham")
+    bank.create_account("ACC002", "Mohan")
+    bank.create_account("ACC003", "Yash")
     
-#   GET ACCOUNT AND TEST
-    Soham = bank.get_account("ACC001")
+    # Get accounts and perform operations
+    print("\n--- Soham's Operations ---")
+    soham = bank.get_account("ACC001")
+    soham.deposit(10000)
+    soham.withdraw(2000)
+    print(f"Balance: {soham.get_balance()}")
     
-    Soham.deposit(10000)
-    Soham.withdraw(5000)
-    print(f"Soham's Balance:{Soham.get_balance()}")
+    print("\n--- Mohan's Operations ---")
+    mohan = bank.get_account("ACC002")
+    mohan.deposit(50000)
+    mohan.withdraw(15000)
+    print(f"Balance: {mohan.get_balance()}")
+    
+    print("\n--- Yash's Operations ---")
+    yash = bank.get_account("ACC003")
+    yash.deposit(25000)
+    yash.withdraw(5000)
+    yash.withdraw(3000)
+    print(f"Balance: {yash.get_balance()}")
+    
+    print("\n--- Testing Error Handling ---")
+    try:
+        soham.withdraw(100000)
+    except ValueError as e:
+        print(f"Error: {e}")
+    
+    try:
+        soham.deposit(-500)
+    except ValueError as e:
+        print(f"Error: {e}")
+    
+    print("\n--- All Accounts Created Successfully ---")
 
