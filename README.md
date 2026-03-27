@@ -50,31 +50,29 @@ python bank_system.py
 
 ## 🧪 Sample Output
 
-Account created for Soham with account number ACC001.
-Account created for Mohan with account number ACC002.
-Account created for Yash with account number ACC003.
+<p>Account created for Soham with account number ACC001.</p>
+<p>Account created for Mohan with account number ACC002.</p>
+<p>Account created for Yash with account number ACC003.</p>
 
 --- Soham's Operations ---
-Deposited 10000 and new balance is 10000.
-Withdrew 2000 and new balance is 8000.
-Balance: 8000
+<p>Deposited 10000 and new balance is 10000.</p>
+<p>Withdrew 2000 and new balance is 8000.</p>
+<p>Balance: 8000</p>
 
 --- Mohan's Operations---
-Deposited 50000 and new balance is 50000.
-Withdrew 15000 and new balance is 35000.
-Balance: 35000
-
-Balance: 35000
+<p>Deposited 50000 and new balance is 50000.</p>
+<p>Withdrew 15000 and new balance is 35000.</p>
+<P>Balance: 35000</p>
 
 --- Yash's Operations ---
-Deposited 25000 and new balance is 25000.
-Withdrew 5000 and new balance is 20000.
-Withdrew 3000 and new balance is 17000.
-Balance: 17000
+<p>Deposited 25000 and new balance is 25000.</p>
+<p>Withdrew 5000 and new balance is 20000.</p>
+<p>Withdrew 3000 and new balance is 17000.</p>
+<P>Balance: 17000</p>
 
 --- Testing Error Handling ---
-Error: Insufficient funds !
-Error: Deposited amount must be positive !
+<p>Error: Insufficient funds !</p>
+<p>Error: Deposited amount must be positive !</p>
 
 ## 👨‍💻 Author
 
