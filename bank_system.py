@@ -48,7 +48,7 @@ class Bank:
             raise ValueError("Account not found !")
         return self.accounts[account_number]
 
-### Testing    
+### Testing 
 if __name__ == "__main__":
     # Create a bank
     bank = Bank("SBI Bank")
