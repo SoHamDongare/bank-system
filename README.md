@@ -77,7 +77,7 @@ python bank_system.py
 ## 👨‍💻 Author
 
 Soham Dongare  
-Aspiring Backend Developer (Python)
+Aspiring Full Stack Developer (Python)
 <p>
   Connect with me:
   <a href="https://www.linkedin.com/in/soham-dongare/">
